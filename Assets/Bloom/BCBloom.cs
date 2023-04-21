@@ -12,7 +12,7 @@ public class BCBloom : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        this.gameObject.GetComponent<BCBloom>().threshold=0.04f;
+        //this.gameObject.GetComponent<BCBloom>().threshold=0.04f;
         threshold = 0.04f;
     }
     // Start is called before the first frame update
